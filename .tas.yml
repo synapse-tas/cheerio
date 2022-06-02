@@ -3,7 +3,7 @@ framework: jest
 licenseTier: small
 preRun:
      command:
-        - npm i
+        - npm install
 preMerge:
   pattern:
     - './src/api/forms.spec.ts'
